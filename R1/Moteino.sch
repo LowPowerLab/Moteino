@@ -2010,8 +2010,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.016" dy="0.9652" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.016" dy="0.9652" layer="1"/>
+<smd name="1" x="-0.85" y="0" dx="1.016" dy="0.9652" layer="1" roundness="35"/>
+<smd name="2" x="0.85" y="0" dx="1.016" dy="0.9652" layer="1" roundness="35"/>
 <text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -2166,8 +2166,8 @@ chip</description>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.016" dy="0.9652" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.016" dy="0.9652" layer="1"/>
+<smd name="1" x="-0.85" y="0" dx="1.016" dy="0.9652" layer="1" roundness="35"/>
+<smd name="2" x="0.85" y="0" dx="1.016" dy="0.9652" layer="1" roundness="35"/>
 <text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -2339,8 +2339,8 @@ SMD</description>
 <package name="0805-CAP">
 <wire x1="-0.2" y1="0.5" x2="-0.2" y2="-0.5" width="0.2" layer="121"/>
 <wire x1="0.2" y1="0.5" x2="0.2" y2="-0.5" width="0.2" layer="121"/>
-<smd name="1" x="-1" y="0" dx="0.8" dy="1.3" layer="1"/>
-<smd name="2" x="1" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="1" x="-1" y="0" dx="0.8" dy="1.3" layer="1" roundness="25"/>
+<smd name="2" x="1" y="0" dx="0.8" dy="1.3" layer="1" roundness="25"/>
 <text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1" y1="-0.625" x2="1" y2="0.625" layer="51"/>
@@ -2368,8 +2368,8 @@ SMD</description>
 <wire x1="0.2" y1="0" x2="0" y2="0" width="0.2" layer="21"/>
 </package>
 <package name="0603-LED">
-<smd name="MINUS" x="-0.85" y="0" dx="0.8" dy="0.9" layer="1"/>
-<smd name="PLUS" x="0.85" y="0" dx="0.8" dy="0.9" layer="1"/>
+<smd name="MINUS" x="-0.85" y="0" dx="0.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="PLUS" x="0.85" y="0" dx="0.8" dy="0.9" layer="1" roundness="35"/>
 <text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.8" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
@@ -2417,109 +2417,11 @@ SMD</description>
 <text x="4.6736" y="-4.953" size="1.778" layer="21" ratio="15">+</text>
 <text x="4.6736" y="-2.921" size="1.778" layer="21" ratio="15">-</text>
 <circle x="3.302" y="2.032" radius="2.83980625" width="0.127" layer="21"/>
-<text x="1.778" y="1.778" size="0.635" layer="21" ratio="12">SI4421</text>
+<text x="1.778" y="1.778" size="0.635" layer="21" ratio="12">SI4420</text>
 <text x="-3.302" y="-1.651" size="0.635" layer="21" ratio="12" rot="R90">10MHz XTAL</text>
 </package>
 <package name="RFM12B-ANTENNA">
 <pad name="P$1" x="0" y="0" drill="0.8"/>
-</package>
-<package name="AXIAL-1/4W">
-<pad name="P$1" x="-3.81" y="0" drill="0.8"/>
-<pad name="P$2" x="3.81" y="0" drill="0.8"/>
-</package>
-<package name="LED3MM">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-3 mm, round</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="21"/>
-<pad name="PLUS" x="-1.27" y="0" drill="0.8128"/>
-<pad name="MINUS" x="1.27" y="0" drill="0.8128"/>
-<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="LED3MM_NOSILK">
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
-<pad name="PLUS" x="-1.27" y="0" drill="0.8128"/>
-<pad name="MINUS" x="1.27" y="0" drill="0.8128"/>
-<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="0.254" y1="0.762" x2="0.254" y2="0" width="0.254" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="0.254" y1="0" x2="-0.254" y2="0.508" width="0.254" layer="21"/>
-<wire x1="0.254" y1="0" x2="-0.254" y2="-0.508" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="-0.508" x2="-0.254" y2="-0.254" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="0.508" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0.508" x2="-0.254" y2="0.254" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="0" y2="0" width="0.254" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="-0.254" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0.508" x2="-0.508" y2="0.762" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="-0.508" x2="-0.508" y2="-0.762" width="0.254" layer="21"/>
-</package>
-<package name="SO08">
-<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
-<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
-<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
-<smd name="1_CS" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2_SO" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3_WP" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4_GND" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5_SI" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6_SCK" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7_HOLD" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8_VCC" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<text x="-1.27" y="-0.635" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-1.27" y="0" size="0.4064" layer="25">&gt;NAME</text>
-<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
-<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
-<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
-<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
-<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
-<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
-<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
-<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
-</package>
-<package name="SO08WIDE">
-<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
-<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.9906" radius="0.3556" width="0.0508" layer="21"/>
-<smd name="1" x="-1.905" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3" x="0.635" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<text x="4.0005" y="-2.032" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-2.7305" y="-2.032" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
-<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
-<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
-<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
-<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
-<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
-<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
-<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -2614,34 +2516,18 @@ SMD</description>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="0" y="12.7" visible="pad" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-12.7" visible="pad" length="middle" rot="R90"/>
-<pin name="ANT" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-<pin name="SEL" x="-12.7" y="5.08" visible="pad" length="middle"/>
-<pin name="SCK" x="-12.7" y="2.54" visible="pad" length="middle"/>
-<pin name="SDI/MOSI" x="-12.7" y="0" visible="pad" length="middle"/>
-<pin name="SDO/MISO" x="-12.7" y="-2.54" visible="pad" length="middle"/>
-<pin name="IRQ" x="-12.7" y="-5.08" visible="pad" length="middle"/>
+<pin name="VDD" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="ANT" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SEL" x="-12.7" y="5.08" length="middle"/>
+<pin name="SCK" x="-12.7" y="2.54" length="middle"/>
+<pin name="SDI/MOSI" x="-12.7" y="0" length="middle"/>
+<pin name="SDO/MISO" x="-12.7" y="-2.54" length="middle"/>
+<pin name="IRQ" x="-12.7" y="-5.08" length="middle"/>
 </symbol>
 <symbol name="RFM12B_ANTENNA">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="middle"/>
-</symbol>
-<symbol name="AT25F512B">
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<text x="7.366" y="-8.382" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="7.62" y="7.62" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
-<pin name="SI" x="12.7" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="SCK" x="12.7" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="HOLD" x="12.7" y="0" visible="pin" length="middle" function="dot" rot="R180"/>
-<pin name="CS" x="-12.7" y="2.54" visible="pin" length="middle" function="dot"/>
-<pin name="WP" x="-12.7" y="-2.54" visible="pin" length="middle" function="dot"/>
-<pin name="VCC" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="-12.7" y="-5.08" visible="pin" length="middle"/>
-<pin name="SO" x="-12.7" y="0" visible="pin" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2999,15 +2885,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
-<device name="1/4W" package="AXIAL-1/4W">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="LED">
@@ -3025,24 +2902,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </technologies>
 </device>
 <device name="0603" package="0603-LED">
-<connects>
-<connect gate="G$1" pin="MINUS" pad="MINUS"/>
-<connect gate="G$1" pin="PLUS" pad="PLUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3MM" package="LED3MM">
-<connects>
-<connect gate="G$1" pin="MINUS" pad="MINUS"/>
-<connect gate="G$1" pin="PLUS" pad="PLUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3MMNOSILK" package="LED3MM_NOSILK">
 <connects>
 <connect gate="G$1" pin="MINUS" pad="MINUS"/>
 <connect gate="G$1" pin="PLUS" pad="PLUS"/>
@@ -3084,34 +2943,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AT25F512B">
-<description>4-Mbit SPI flash memory</description>
-<gates>
-<gate name="G$1" symbol="AT25F512B" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="JEDEC" package="SO08">
-<connects>
-<connect gate="G$1" pin="CS" pad="1_CS"/>
-<connect gate="G$1" pin="GND" pad="4_GND"/>
-<connect gate="G$1" pin="HOLD" pad="7_HOLD"/>
-<connect gate="G$1" pin="SCK" pad="6_SCK"/>
-<connect gate="G$1" pin="SI" pad="5_SI"/>
-<connect gate="G$1" pin="SO" pad="2_SO"/>
-<connect gate="G$1" pin="VCC" pad="8_VCC"/>
-<connect gate="G$1" pin="WP" pad="3_WP"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WIDE" package="SO08WIDE">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3166,10 +2997,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R2" library="LowPowerLab" deviceset="RESISTOR" device="0603-RES" value="1k5"/>
 <part name="RFM12B" library="LowPowerLab" deviceset="RFM12B_MINPADS" device=""/>
 <part name="U$1" library="LowPowerLab" deviceset="RFM12B_ANTENNA" device=""/>
-<part name="U$4" library="LowPowerLab" deviceset="AT25F512B" device="JEDEC"/>
-<part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="P+4" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="P+5" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -3219,10 +3046,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </instance>
 <instance part="RFM12B" gate="G$1" x="152.4" y="73.66" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="165.1" y="86.36" rot="R90"/>
-<instance part="U$4" gate="G$1" x="93.98" y="27.94"/>
-<instance part="SUPPLY8" gate="GND" x="73.66" y="20.32"/>
-<instance part="P+4" gate="1" x="114.3" y="30.48"/>
-<instance part="P+5" gate="1" x="66.04" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -3291,12 +3114,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$2" gate="G$1" pin="MINUS"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="106.68" y1="55.88" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="81.28" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-<label x="76.2" y="22.86" size="1.778" layer="95"/>
-<pinref part="SUPPLY8" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="D10_SS" class="0">
@@ -3430,34 +3247,17 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="195.58" y1="123.19" x2="192.278" y2="123.19" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
 </segment>
-<segment>
-<wire x1="106.68" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
-<label x="106.68" y="30.48" size="1.778" layer="95"/>
-<pinref part="P+4" gate="1" pin="VCC"/>
-<wire x1="106.68" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="HOLD"/>
-<label x="106.68" y="27.94" size="1.778" layer="95"/>
-<wire x1="114.3" y1="27.94" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
-<junction x="114.3" y="30.48"/>
-</segment>
-<segment>
-<wire x1="81.28" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="WP"/>
-<label x="76.2" y="25.4" size="1.778" layer="95"/>
-<pinref part="P+5" gate="1" pin="VCC"/>
-<wire x1="73.66" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="D9" class="0">
 <segment>
-<wire x1="83.82" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="86.36" y="88.9" size="1.778" layer="95"/>
 <pinref part="ATMEGA328" gate="G$1" pin="PB1(OC1A)"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="88.9" x2="95.25" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="88.9" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DIGITALSIDE" gate="G$1" pin="5"/>
@@ -3475,11 +3275,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="DIGITALSIDE" gate="G$1" pin="6"/>
 <wire x1="170.18" y1="124.46" x2="161.29" y2="124.46" width="0.1524" layer="91"/>
 <label x="161.29" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="81.28" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="CS"/>
-<label x="76.2" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -3693,11 +3488,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="94.742" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 <label x="86.36" y="83.82" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="106.68" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="SI"/>
-<label x="106.68" y="22.86" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="D12_MISO" class="0">
 <segment>
@@ -3715,11 +3505,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="124.46" y="71.12" size="1.778" layer="95"/>
 <pinref part="RFM12B" gate="G$1" pin="SDO/MISO"/>
 </segment>
-<segment>
-<wire x1="81.28" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="SO"/>
-<label x="71.12" y="27.94" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="D13_SCK" class="0">
 <segment>
@@ -3736,11 +3521,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="124.46" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
 <label x="124.46" y="76.2" size="1.778" layer="95"/>
 <pinref part="RFM12B" gate="G$1" pin="SCK"/>
-</segment>
-<segment>
-<wire x1="106.68" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="SCK"/>
-<label x="106.68" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A5_SCL" class="0">
