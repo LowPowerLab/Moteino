@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3286,6 +3286,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <text x="217.678" y="20.32" size="2.54" layer="94" font="vector">author: Felix Rusu</text>
 <text x="166.37" y="8.382" size="2.54" layer="94" font="vector">http://lowpowerlab.com</text>
 <text x="166.878" y="12.7" size="2.54" layer="94" font="vector">(CC) Attrib ShareAlike</text>
+<text x="166.37" y="4.826" size="2.54" layer="94" font="vector">http://www.moteino.com</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
