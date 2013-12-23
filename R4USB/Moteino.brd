@@ -19,13 +19,13 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="12" fill="1" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -74,9 +74,10 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="HACKVANA_CODE" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -122,15 +123,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="11.557" y1="0" x2="56.261" y2="0" width="0" layer="20"/>
-<wire x1="56.261" y1="0" x2="56.261" y2="23.114" width="0" layer="20"/>
-<wire x1="56.261" y1="23.114" x2="11.557" y2="23.114" width="0" layer="20"/>
-<wire x1="11.557" y1="23.114" x2="11.557" y2="0" width="0" layer="20"/>
+<wire x1="12.192" y1="0" x2="55.626" y2="0" width="0" layer="20"/>
+<wire x1="56.261" y1="0.635" x2="56.261" y2="22.479" width="0" layer="20"/>
+<wire x1="55.626" y1="23.114" x2="12.192" y2="23.114" width="0" layer="20"/>
 <text x="52.705" y="9.9568" size="0.889" layer="121" font="vector" ratio="15" rot="R270">AR</text>
 <text x="28.0924" y="20.2438" size="0.889" layer="121" font="vector" ratio="15" rot="R180">VIN</text>
 <text x="30.7848" y="20.193" size="0.889" layer="121" font="vector" ratio="15" rot="R180">3.3</text>
 <text x="27.5844" y="3.8608" size="1.016" layer="121" font="vector" ratio="15" rot="R180">2</text>
-<text x="30.3022" y="3.8354" size="1.016" layer="121" font="vector" ratio="15" rot="R180">3</text>
+<text x="30.0482" y="3.8354" size="1.016" layer="121" font="vector" ratio="15" rot="R180">3</text>
 <text x="33.4264" y="3.9116" size="1.016" layer="121" font="vector" ratio="15" rot="R180">4 </text>
 <text x="38.5064" y="3.8862" size="1.016" layer="121" font="vector" ratio="15" rot="R180">6 </text>
 <text x="40.2844" y="3.9116" size="1.016" layer="121" font="vector" ratio="15" rot="R180">7</text>
@@ -160,11 +160,11 @@
 <text x="25.7556" y="20.2438" size="0.889" layer="122" font="vector" ratio="15" rot="MR180">VIN</text>
 <text x="28.5242" y="20.193" size="0.889" layer="122" font="vector" ratio="15" rot="MR180">3.3</text>
 <text x="26.3906" y="3.8608" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">2</text>
-<text x="29.1338" y="3.8354" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">3</text>
-<text x="31.4706" y="3.9116" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">4 </text>
+<text x="28.8798" y="3.8354" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">3</text>
+<text x="30.5816" y="3.9116" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">4 </text>
 <text x="34.036" y="3.8862" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">5</text>
-<text x="36.4236" y="3.8862" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">6 </text>
-<text x="39.0906" y="3.9116" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">7</text>
+<text x="35.6616" y="3.8862" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">6 </text>
+<text x="38.8366" y="3.9116" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">7</text>
 <text x="41.6052" y="3.8862" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">8</text>
 <text x="44.0436" y="3.9116" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">9</text>
 <text x="46.1518" y="3.8608" size="1.016" layer="122" font="vector" ratio="15" rot="MR180">10</text>
@@ -194,6 +194,7 @@
 <text x="23.749" y="13.335" size="1.524" layer="21" font="vector" ratio="18" rot="SR0">R4-USB</text>
 <circle x="24.384" y="21.717" radius="1.143" width="0.381" layer="121"/>
 <circle x="54.864" y="14.097" radius="1.143" width="0.381" layer="121"/>
+<wire x1="11.557" y1="22.479" x2="11.557" y2="0.635" width="0" layer="20"/>
 <wire x1="24.892" y1="11.0998" x2="24.4856" y2="11.6332" width="0.3302" layer="21"/>
 <wire x1="24.4856" y1="11.6332" x2="25.2984" y2="11.6332" width="0.3302" layer="21"/>
 <wire x1="25.2984" y1="11.6332" x2="24.892" y2="11.0998" width="0.3302" layer="21"/>
@@ -249,7 +250,6 @@ XTAL</text>
 <wire x1="50.546" y1="11.43" x2="50.546" y2="12.065" width="0.254" layer="22"/>
 <wire x1="50.546" y1="9.398" x2="50.546" y2="10.033" width="0.254" layer="22"/>
 <wire x1="50.546" y1="7.366" x2="50.546" y2="8.001" width="0.254" layer="22"/>
-<text x="12.319" y="11.557" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">LowPowerLab.com</text>
 <text x="39.624" y="10.1854" size="0.889" layer="121" font="vector" ratio="20" align="bottom-center">ATMEGA
 328</text>
 <text x="54.8894" y="16.7132" size="0.762" layer="122" font="vector" ratio="15" rot="MR0">ANT</text>
@@ -262,10 +262,9 @@ XTAL</text>
 <text x="22.352" y="11.938" size="0.762" layer="121" font="vector" ratio="15" rot="SR0">TX</text>
 <text x="31.496" y="17.272" size="0.762" layer="121" font="vector" ratio="15" rot="SR0">TX</text>
 <text x="34.036" y="17.272" size="0.762" layer="121" font="vector" ratio="15" rot="SR0">RX</text>
-<text x="18.923" y="11.684" size="1.27" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">MOTEINO R4-USB</text>
-<text x="22.352" y="11.811" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">USB Powered
-or
-VIN: 3.3-12V</text>
+<text x="18.669" y="11.557" size="1.27" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">MOTEINO R4-USB</text>
+<text x="21.59" y="12.319" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">For use with:
+RFM12B / RFM69</text>
 <wire x1="22.987" y1="18.161" x2="23.749" y2="18.161" width="0.2032" layer="121"/>
 <rectangle x1="18.669" y1="15.24" x2="19.558" y2="15.748" layer="41"/>
 <rectangle x1="50.292" y1="17.526" x2="51.181" y2="18.034" layer="42" rot="R180"/>
@@ -276,8 +275,28 @@ VIN: 3.3-12V</text>
 <text x="45.4152" y="4.4704" size="1.27" layer="121" font="vector" ratio="15" rot="R180">~</text>
 <text x="47.8282" y="4.4704" size="1.27" layer="121" font="vector" ratio="15" rot="R180">~</text>
 <text x="50.4952" y="5.3594" size="1.27" layer="121" font="vector" ratio="15" rot="R180">~</text>
+<text x="17.653" y="5.7658" size="0.762" layer="113" font="vector" ratio="15" rot="MR270" align="bottom-center">XXXXXXXXXXXX</text>
 <dimension x1="11.557" y1="23.114" x2="56.261" y2="23.114" x3="33.909" y3="26.797" textsize="1.778" layer="51"/>
 <dimension x1="56.261" y1="23.114" x2="56.261" y2="0" x3="61.468" y3="11.557" textsize="1.778" layer="51"/>
+<rectangle x1="50.292" y1="19.05" x2="51.181" y2="19.558" layer="42" rot="R180"/>
+<rectangle x1="42.9895" y1="13.5255" x2="43.8785" y2="14.0335" layer="42" rot="R270"/>
+<text x="25.527" y="12.065" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">USB Powered</text>
+<rectangle x1="19.939" y1="8.001" x2="20.828" y2="8.509" layer="41"/>
+<text x="12.446" y="11.557" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">LowPowerLab.com</text>
+<rectangle x1="19.685" y1="21.336" x2="20.955" y2="22.606" layer="22"/>
+<text x="21.0312" y="22.352" size="0.762" layer="122" font="vector" ratio="15" rot="MR180">434</text>
+<text x="17.3482" y="22.352" size="0.762" layer="122" font="vector" ratio="15" rot="MR180">868</text>
+<rectangle x1="16.002" y1="21.336" x2="17.272" y2="22.606" layer="22"/>
+<rectangle x1="11.938" y1="21.336" x2="13.208" y2="22.606" layer="22"/>
+<text x="13.2842" y="22.352" size="0.762" layer="122" font="vector" ratio="15" rot="MR180">915</text>
+<rectangle x1="43.4975" y1="12.8905" x2="44.3865" y2="13.3985" layer="42" rot="R270"/>
+<rectangle x1="44.3865" y1="12.8905" x2="45.2755" y2="13.3985" layer="42" rot="R270"/>
+<text x="12.573" y="19.05" size="1.143" layer="21" font="vector" ratio="18" rot="SR270">mini
+USB</text>
+<wire x1="55.626" y1="23.114" x2="56.261" y2="22.479" width="0" layer="20"/>
+<wire x1="55.626" y1="0" x2="56.261" y2="0.635" width="0" layer="20"/>
+<wire x1="12.192" y1="0" x2="11.557" y2="0.635" width="0" layer="20"/>
+<wire x1="12.192" y1="23.114" x2="11.557" y2="22.479" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1071,10 +1090,10 @@ design rules under a new name.</description>
 <element name="C3" library="LowPowerLab" package="0805-CAP" value="10u" x="28.702" y="10.541" smashed="yes" rot="R90"/>
 <element name="U$2" library="LowPowerLab" package="0603-LED" value="LED0603" x="55.499" y="17.018" smashed="yes" rot="R90"/>
 <element name="R2" library="LowPowerLab" package="0603-RES" value="1k5" x="53.975" y="17.018" smashed="yes" rot="R90"/>
-<element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="15.24" y="11.303" rot="MR90"/>
+<element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="15.367" y="11.303" rot="MR90"/>
 <element name="U$1" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="52.197" y="16.637"/>
 <element name="U$5" library="LowPowerLab" package="RFM69W-MINPADS" value="RFM69" x="42.799" y="11.684" smashed="yes" rot="MR180"/>
-<element name="U$6" library="LowPowerLab" package="SO08WIDE" value="AT25F512BWIDE_5.3MM" x="49.53" y="10.922" smashed="yes"/>
+<element name="W25X40CLSNIG-ND" library="LowPowerLab" package="SO08WIDE" value="AT25F512BWIDE_5.3MM" x="49.53" y="10.922" smashed="yes"/>
 <element name="RFM12B" library="LowPowerLab" package="RFM12B-MINPADS" value="RFM12B_MINPADS" x="36.449" y="11.684" smashed="yes" rot="MR180"/>
 <element name="CN1" library="LowPowerLab" package="USB-MINIB" value="MINIB" x="15.113" y="17.526" smashed="yes" rot="R270"/>
 <element name="IC1" library="ftdichip" package="SSOP28" value="FT232RL" x="16.764" y="5.588" smashed="yes" rot="R270"/>
@@ -1126,7 +1145,7 @@ design rules under a new name.</description>
 <wire x1="54.864" y1="14.1224" x2="54.8386" y2="14.097" width="0.4572" layer="16"/>
 <via x="46.101" y="13.716" extent="1-16" drill="0.381"/>
 <wire x1="45.974" y1="12.407" x2="45.847" y2="12.534" width="0.508" layer="1"/>
-<contactref element="U$6" pad="4"/>
+<contactref element="W25X40CLSNIG-ND" pad="4"/>
 <wire x1="50.799" y1="18.684" x2="49.799" y2="18.684" width="0.508" layer="16"/>
 <contactref element="RFM12B" pad="GND"/>
 <wire x1="44.449" y1="13.684" x2="45.371" y2="13.684" width="0.381" layer="16"/>
@@ -1168,29 +1187,31 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="21"/>
 <contactref element="IC1" pad="26"/>
 <contactref element="C6" pad="2"/>
-<wire x1="20.389" y1="8.513" x2="20.389" y2="7.863" width="0.3048" layer="1"/>
 <via x="15.2647" y="1.6562" extent="1-16" drill="0.4064"/>
 <via x="16.2807" y="5.3392" extent="1-16" drill="0.4064"/>
-<wire x1="20.318" y1="5.334" x2="20.389" y2="5.263" width="0.3048" layer="1"/>
 <via x="13.9947" y="17.5312" extent="1-16" drill="0.4064"/>
-<wire x1="20.389" y1="7.863" x2="20.389" y2="8.451" width="0.3048" layer="1"/>
-<wire x1="20.389" y1="8.451" x2="20.447" y2="8.509" width="0.3048" layer="1"/>
 <wire x1="20.447" y1="8.509" x2="20.32" y2="8.509" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="8.509" x2="19.177" y2="8.509" width="0.3048" layer="1"/>
-<wire x1="19.177" y1="8.509" x2="20.32" y2="8.509" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="8.509" x2="20.701" y2="8.509" width="0.3048" layer="1"/>
-<wire x1="20.701" y1="8.509" x2="20.32" y2="8.509" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="8.509" x2="20.32" y2="7.874" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="7.874" x2="19.05" y2="7.874" width="0.3048" layer="1"/>
-<wire x1="19.05" y1="7.874" x2="20.32" y2="7.874" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="7.874" x2="20.955" y2="7.874" width="0.3048" layer="1"/>
-<wire x1="20.955" y1="7.874" x2="20.32" y2="7.874" width="0.3048" layer="1"/>
+<wire x1="20.32" y1="8.509" x2="20.447" y2="8.509" width="0.3048" layer="1"/>
+<wire x1="20.447" y1="8.509" x2="20.701" y2="8.509" width="0.3048" layer="1"/>
+<wire x1="20.701" y1="8.509" x2="20.447" y2="8.509" width="0.3048" layer="1"/>
+<wire x1="20.447" y1="8.509" x2="20.32" y2="8.509" width="0.3048" layer="1"/>
+<wire x1="20.32" y1="7.874" x2="20.389" y2="7.874" width="0.3048" layer="1"/>
+<wire x1="20.389" y1="7.874" x2="20.955" y2="7.874" width="0.3048" layer="1"/>
+<wire x1="20.955" y1="7.874" x2="20.389" y2="7.874" width="0.3048" layer="1"/>
 <via x="26.5677" y="18.6742" extent="1-16" drill="0.4064"/>
 <via x="26.1867" y="3.9422" extent="1-16" drill="0.4064"/>
 <via x="24.1547" y="12.9592" extent="1-16" drill="0.4064"/>
 <via x="28.7267" y="12.9592" extent="1-16" drill="0.4064"/>
+<wire x1="20.389" y1="7.874" x2="20.32" y2="7.874" width="0.3048" layer="1"/>
 <wire x1="55.499" y1="14.7574" x2="54.8386" y2="14.097" width="0.4572" layer="1"/>
 <wire x1="55.499" y1="16.168" x2="55.499" y2="14.7574" width="0.4572" layer="1"/>
+<wire x1="20.32" y1="7.874" x2="20.389" y2="7.874" width="0.3048" layer="1"/>
+<wire x1="20.389" y1="7.874" x2="20.389" y2="7.863" width="0.3048" layer="1"/>
+<wire x1="20.389" y1="8.513" x2="20.447" y2="8.513" width="0.3048" layer="1"/>
+<wire x1="20.447" y1="8.513" x2="20.447" y2="8.509" width="0.3048" layer="1"/>
+<wire x1="20.389" y1="8.513" x2="19.05" y2="8.513" width="0.3048" layer="1"/>
+<wire x1="19.05" y1="8.513" x2="19.05" y2="8.509" width="0.3048" layer="1"/>
+<wire x1="20.389" y1="7.874" x2="18.923" y2="7.874" width="0.3048" layer="1"/>
 </signal>
 <signal name="D10_SS">
 <contactref element="DIGITALSIDE" pad="4"/>
@@ -1309,9 +1330,9 @@ design rules under a new name.</description>
 <wire x1="49.276" y1="10.668" x2="50.165" y2="9.779" width="0.3048" layer="1"/>
 <wire x1="31.299" y1="18.684" x2="31.299" y2="19.882" width="0.4572" layer="16"/>
 <wire x1="31.299" y1="19.882" x2="29.464" y2="21.717" width="0.4572" layer="16"/>
-<contactref element="U$6" pad="7"/>
-<contactref element="U$6" pad="8"/>
-<contactref element="U$6" pad="3"/>
+<contactref element="W25X40CLSNIG-ND" pad="7"/>
+<contactref element="W25X40CLSNIG-ND" pad="8"/>
+<contactref element="W25X40CLSNIG-ND" pad="3"/>
 <wire x1="50.165" y1="9.779" x2="50.165" y2="7.6533" width="0.3048" layer="1"/>
 <wire x1="48.895" y1="14.2082" x2="48.895" y2="13.081" width="0.3048" layer="1"/>
 <wire x1="47.625" y1="14.2082" x2="47.625" y2="13.081" width="0.3048" layer="1"/>
@@ -1387,7 +1408,7 @@ design rules under a new name.</description>
 <wire x1="39.1224" y1="7.3914" x2="39.1224" y2="4.4386" width="0.381" layer="1"/>
 <wire x1="39.1224" y1="4.4386" x2="42.164" y2="1.397" width="0.381" layer="1"/>
 <via x="47.625" y="6.096" extent="1-16" drill="0.3302"/>
-<contactref element="U$6" pad="1"/>
+<contactref element="W25X40CLSNIG-ND" pad="1"/>
 <wire x1="47.625" y1="6.096" x2="47.6123" y2="7.747" width="0.3048" layer="1"/>
 <wire x1="47.6123" y1="7.747" x2="47.625" y2="7.6533" width="0.3048" layer="1"/>
 <wire x1="47.625" y1="6.096" x2="47.625" y2="5.334" width="0.381" layer="16"/>
@@ -1598,7 +1619,7 @@ design rules under a new name.</description>
 <via x="52.451" y="9.652" extent="1-16" drill="0.3302"/>
 <wire x1="52.451" y1="9.652" x2="52.451" y2="8.986" width="0.3048" layer="16"/>
 <wire x1="52.451" y1="8.986" x2="52.149" y2="8.684" width="0.3048" layer="16"/>
-<contactref element="U$6" pad="5"/>
+<contactref element="W25X40CLSNIG-ND" pad="5"/>
 <wire x1="51.435" y1="14.2082" x2="51.435" y2="10.668" width="0.3048" layer="1"/>
 <contactref element="RFM12B" pad="SDI"/>
 <wire x1="41.5224" y1="7.3914" x2="41.5224" y2="8.2484" width="0.3048" layer="1"/>
@@ -1623,7 +1644,7 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="MISO"/>
 <wire x1="50.799" y1="10.684" x2="49.673" y2="10.684" width="0.3048" layer="16"/>
 <wire x1="49.673" y1="10.684" x2="48.514" y2="9.525" width="0.3048" layer="16"/>
-<contactref element="U$6" pad="2"/>
+<contactref element="W25X40CLSNIG-ND" pad="2"/>
 <wire x1="48.514" y1="9.525" x2="48.8315" y2="9.8425" width="0.3048" layer="16"/>
 <via x="48.514" y="9.525" extent="1-16" drill="0.3302"/>
 <wire x1="48.514" y1="9.525" x2="48.895" y2="9.144" width="0.3048" layer="1"/>
@@ -1659,7 +1680,7 @@ design rules under a new name.</description>
 <wire x1="43.815" y1="7.868" x2="47.238" y2="4.445" width="0.381" layer="1"/>
 <wire x1="49.149" y1="11.938" x2="49.784" y2="11.938" width="0.3048" layer="1"/>
 <wire x1="49.784" y1="11.938" x2="50.165" y2="12.319" width="0.3048" layer="1"/>
-<contactref element="U$6" pad="6"/>
+<contactref element="W25X40CLSNIG-ND" pad="6"/>
 <wire x1="50.165" y1="14.2082" x2="50.165" y2="12.319" width="0.3048" layer="1"/>
 <contactref element="RFM12B" pad="SCK"/>
 <wire x1="44.449" y1="7.684" x2="45.784" y2="7.684" width="0.3048" layer="16"/>
