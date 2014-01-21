@@ -74,7 +74,6 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="HACKVANA_CODE" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -295,7 +294,6 @@ XTAL</text>
 <rectangle x1="26.543" y1="17.8562" x2="27.051" y2="18.4912" layer="42"/>
 <rectangle x1="27.5336" y1="19.1262" x2="28.0416" y2="19.7612" layer="42"/>
 <rectangle x1="27.94" y1="18.8214" x2="29.083" y2="19.5834" layer="42"/>
-<text x="13.0302" y="12.065" size="0.762" layer="113" font="vector" ratio="15" rot="MR270" align="bottom-center">XXXXXXXXXXXX</text>
 <wire x1="0" y1="22.4028" x2="0.7112" y2="23.114" width="0" layer="20"/>
 <wire x1="33.274" y1="22.4028" x2="32.5628" y2="23.114" width="0" layer="20"/>
 <wire x1="32.5628" y1="0" x2="33.274" y2="0.7112" width="0" layer="20"/>
