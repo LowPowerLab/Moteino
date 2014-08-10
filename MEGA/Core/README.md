@@ -5,14 +5,14 @@ Everything you need to run a ATmega1284P based Moteino MEGA from the Arduino IDE
 
 ## Status
 This core was tested and modded from the original mighty-1284p core along with mods from Leonardo Milliani.
-The platform now includes Dualoptiboot for atmega1284p which supports wireless programming (R) by LowPowerLab.
+The platform now includes Dualoptiboot for atmega1284p which supports [wireless programming](http://lowpowerlab.com/blog/category/moteino/wireless-programming/) (R) by LowPowerLab.
 
 ## License
 Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 https://creativecommons.org/licenses/by-sa/4.0/
 
 ## Installation
-1. Download the [ZIP File](https://github.com/maniacbug/mighty-1284p/zipball/master)
+1. Download the [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/MoteinoMEGA_Core.zip)
 2. Unzip it a folder called 'hardware' off your sketches directory, e.g. /Users/felix/Arduino/hardware/MoteinoMEGA
 3. Restart the IDE
 4. Select Tools > Board > Moteino MEGA (1K DualOptiboot)
