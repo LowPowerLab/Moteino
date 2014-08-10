@@ -19,7 +19,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -74,9 +74,10 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="HACKVANA_CODE" color="10" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -114,6 +115,9 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -279,7 +283,7 @@ XTAL</text>
 <text x="29.591" y="11.176" size="0.889" layer="22" font="vector" ratio="15" rot="SMR90" align="bottom-center">LowPowerLab</text>
 <text x="16.637" y="10.1854" size="0.889" layer="121" font="vector" ratio="20" align="bottom-center">ATMEGA
 328</text>
-<text x="29.9466" y="17.0688" size="0.762" layer="122" font="vector" ratio="15" rot="MR180">ANT</text>
+<text x="31.9278" y="15.9258" size="0.762" layer="122" font="vector" ratio="15" rot="MR90">ANT</text>
 <text x="2.667" y="9.271" size="0.762" layer="122" font="vector" ratio="15" rot="SMR90">VIN</text>
 <rectangle x1="24.257" y1="8.89" x2="29.083" y2="12.827" layer="41"/>
 <rectangle x1="5.842" y1="16.891" x2="6.858" y2="18.542" layer="41"/>
@@ -304,6 +308,9 @@ XTAL</text>
 <wire x1="29.591" y1="17.526" x2="28.829" y2="17.526" width="0.254" layer="22" curve="69.354732"/>
 <wire x1="29.972" y1="17.907" x2="28.448" y2="17.907" width="0.254" layer="22" curve="84.805571"/>
 <wire x1="30.353" y1="18.288" x2="28.067" y2="18.288" width="0.254" layer="22" curve="90"/>
+<wire x1="30.3022" y1="16.2814" x2="30.3022" y2="17.0434" width="0.254" layer="22" curve="69.354732"/>
+<wire x1="30.6832" y1="15.9004" x2="30.6832" y2="17.4244" width="0.254" layer="22" curve="84.805571"/>
+<wire x1="31.0642" y1="15.5194" x2="31.0642" y2="17.8054" width="0.254" layer="22" curve="90"/>
 </plain>
 <libraries>
 <library name="SparkFun">
