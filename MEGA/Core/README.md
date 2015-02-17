@@ -21,8 +21,8 @@ PARTICULAR PURPOSE. See the GNU General Public
 License for more details. View full license text at: http://www.gnu.org/licenses/gpl-3.0.txt
 
 ## Installation
-1. Download the [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip)
-2. Unzip it a folder called 'hardware' off your sketches directory, e.g. /Users/felix/Arduino/hardware/Moteino
+1. Download the [root of this repository](https://github.com/LowPowerLab/Moteino) (find the "Download ZIP" button), then find this [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip) in that master ZIP archive. You will need to 
+2. Unzip the content of the Moteino.zip into a folder called 'hardware' located in your sketches directory, e.g. /Users/felix/Arduino/hardware/Moteino. Some users report that they can only make this work by copying it directly in the hardware folder under their Arduino installation folder.
 3. Restart the IDE
 4. Select Tools > Board > Moteino or MoteinoMEGA
 5. To burn the bootloader, follow the Arduino [Bootloader](http://arduino.cc/en/Hacking/Bootloader) instructions.
@@ -31,7 +31,7 @@ License for more details. View full license text at: http://www.gnu.org/licenses
 * Tested on stable Arduino 1.0.6
 * According to maniacbug the bootloader cannot be burned using [USBtinyISP](http://www.ladyada.net/make/usbtinyisp/). That programmer cannot flash to chips with >64k flash size. I recommend using a true AVR programmer like the AVR ISP MKii.
 
-## See also
+## MISC - See also
 Original creator of the mighty-1284p arduino core:
 http://maniacbug.wordpress.com/2011/11/27/arduino-on-atmega1284p-4/
 Leonardo Milliani's mods to mighty-1284p:
