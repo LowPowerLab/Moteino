@@ -6,7 +6,7 @@ Added regular Moteino variant based on the prolific ATmega328p.
 
 ## Status
 This Arduino core contains the ATmega1284P MoteinoMEGA variant and the ATmega328p Moteino variant (added Nov 2014) along with the DualOptiboot bootloaders.
-The platform now includes Dualoptiboot for ATmega1284P and ATmega328p which support [wireless programming](http://lowpowerlab.com/blog/category/moteino/wireless-programming/) (R) by Felix Rusu of LowPowerLab.com
+The platform now includes Dualoptiboot for ATmega1284P and ATmega328p which support [wireless programming](http://lowpowerlab.com/blog/category/moteino/wireless-programming/) (C) by Felix Rusu of LowPowerLab.com
 
 ## License
 This program is free software; you can redistribute it 
@@ -21,14 +21,15 @@ PARTICULAR PURPOSE. See the GNU General Public
 License for more details. View full license text at: http://www.gnu.org/licenses/gpl-3.0.txt
 
 ## Installation
-1. Download the [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip)
-2. Unzip it a folder called 'hardware' off your sketches directory, e.g. /Users/felix/Arduino/hardware/Moteino
+0. Ensure you are running Arduino 1.6.0 or greater (this was tested on Arduino 1.6.1)
+1. Download the whole repository ZIP, then extract the Moteino core [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip) from that. 
+2. From the Moteino.zip archive unzip and copy the Moteino folder in the Arduino 'Hardware' directory, e.g. /Arduino/hardware/Moteino
 3. Restart the IDE
 4. Select Tools > Board > Moteino or MoteinoMEGA
 5. To burn the bootloader, follow the Arduino [Bootloader](http://arduino.cc/en/Hacking/Bootloader) instructions.
 
 ## Requirements
-* Tested on stable Arduino 1.0.6
+* Tested on stable Arduino 1.6.1
 * According to maniacbug the bootloader cannot be burned using [USBtinyISP](http://www.ladyada.net/make/usbtinyisp/). That programmer cannot flash to chips with >64k flash size. I recommend using a true AVR programmer like the AVR ISP MKii.
 
 ## See also
