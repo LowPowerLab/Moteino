@@ -6,8 +6,8 @@ Added regular Moteino variant based on the prolific ATmega328p.
 
 ##Update
 This guide and package is only relevant if you run IDE 1.6+ or the older 1.0.6.
-Arduino IDE 1.6.7+ has a board manager that makes it really easy to add the board definitions, instead of using these ZIP files.
-If that is the version you use, see [this guide] for an automated install.
+[Arduino IDE 1.6.4+ has introduced a board manager](http://playground.arduino.cc/Main/BoardsManagerSupport) that makes it really easy to add the board definitions, instead of using these ZIP files.
+If that is the version you use, see [this guide](https://lowpowerlab.com/moteino/#programming) for an automated install.
 
 ## Status
 This Arduino core contains the ATmega1284P MoteinoMEGA variant and the ATmega328p Moteino variant (added Nov 2014) along with the DualOptiboot bootloaders.
