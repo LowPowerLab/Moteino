@@ -4,6 +4,11 @@
 Everything you need to run a ATmega1284P based Moteino MEGA from the Arduino IDE.
 Added regular Moteino variant based on the prolific ATmega328p.
 
+##Update
+This guide and package is only relevant if you run IDE 1.6+ or the older 1.0.6.
+Arduino IDE 1.6.7+ has a board manager that makes it really easy to add the board definitions, instead of using these ZIP files.
+If that is the version you use, see [this guide] for an automated install.
+
 ## Status
 This Arduino core contains the ATmega1284P MoteinoMEGA variant and the ATmega328p Moteino variant (added Nov 2014) along with the DualOptiboot bootloaders.
 The platform now includes Dualoptiboot for ATmega1284P and ATmega328p which support [wireless programming](http://lowpowerlab.com/blog/category/moteino/wireless-programming/) (C) by Felix Rusu of LowPowerLab.com
@@ -12,8 +17,9 @@ The platform now includes Dualoptiboot for ATmega1284P and ATmega328p which supp
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. View full license text at: http://www.gnu.org/licenses/gpl-3.0.txt
 
 ## Installation
+
 0. Ensure you are running Arduino 1.6.0 or greater (this was tested on Arduino 1.6.1)
-1. Download the whole repository ZIP, then extract the Moteino core [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip) from that. 
+1. Download the whole repository ZIP, then extract the Moteino core [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip) from that. If you run the 1.0.6 release get the Moteino_1.0.6.zip instead.
 2. From the Moteino.zip archive unzip and copy the Moteino folder in the Arduino 'Hardware' directory, e.g. /Arduino/hardware/Moteino
 1. Download the [root of this repository](https://github.com/LowPowerLab/Moteino) (find the "Download ZIP" button), then find this [ZIP File](https://github.com/LowPowerLab/Moteino/blob/master/MEGA/Core/Moteino.zip) in that master ZIP archive. You will need to 
 2. Unzip the content of the Moteino.zip into a folder called 'hardware' located in your sketches directory, e.g. /Users/felix/Arduino/hardware/Moteino. Some users report that they can only make this work by copying it directly in the hardware folder under their Arduino installation folder.
