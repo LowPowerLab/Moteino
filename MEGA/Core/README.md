@@ -1,12 +1,15 @@
 # Moteino/MoteinoMEGA Arduino core files for Atmega328P/ATmega1284P based Moteinos
 
+#* ~~~ Obsolete ~~~ *
+See new instructions to get Moteino Core in the [Moteino guide](https://lowpowerlab.com/guide/moteino/programming-libraries/).
+
 ## What is it?
 Everything you need to run a ATmega1284P based Moteino MEGA from the Arduino IDE.
 Added regular Moteino variant based on the prolific ATmega328p.
 
 ## Status
 * This Arduino core contains the ATmega1284P MoteinoMEGA variant and the ATmega328p Moteino variant (added Nov 2014) along with the DualOptiboot bootloaders.
-* The platform now includes Dualoptiboot for ATmega1284P and ATmega328p which support [wireless programming](http://lowpowerlab.com/blog/category/moteino/wireless-programming/) (C) by Felix Rusu of LowPowerLab.com
+* The platform now includes Dualoptiboot for ATmega1284P and ATmega328p which support [wireless programming](https://lowpowerlab.com/guide/moteino/wireless-programming/) (C) by Felix Rusu of LowPowerLab.com
 * Last updated: Aug 24, 2016.
 
 ## License
