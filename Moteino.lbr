@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -129,7 +129,7 @@
 <wire x1="-16.51" y1="-11.43" x2="16.51" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="16.51" y1="-11.43" x2="16.51" y2="11.43" width="0.127" layer="21"/>
 <wire x1="16.51" y1="11.43" x2="-16.51" y2="11.43" width="0.127" layer="21"/>
-<circle x="12.7" y="5.08" radius="0.740528125" width="0.127" layer="51"/>
+<circle x="12.7" y="6.858" radius="0.740528125" width="0.127" layer="51"/>
 </package>
 <package name="MOTEINO_R6">
 <pad name="RST" x="1.27" y="1.27" drill="1.016" diameter="1.6256"/>
@@ -273,41 +273,41 @@
 </packages>
 <symbols>
 <symbol name="MOTEINO">
-<pin name="RST" x="-15.24" y="17.78" length="middle"/>
-<pin name="D2" x="-15.24" y="15.24" length="middle"/>
-<pin name="D3" x="-15.24" y="12.7" length="middle"/>
-<pin name="D4" x="-15.24" y="10.16" length="middle"/>
-<pin name="D5" x="-15.24" y="7.62" length="middle"/>
-<pin name="D6" x="-15.24" y="5.08" length="middle"/>
-<pin name="D7" x="-15.24" y="2.54" length="middle"/>
-<pin name="D8" x="-15.24" y="0" length="middle"/>
-<pin name="D9" x="-15.24" y="-2.54" length="middle"/>
-<pin name="D10_SS" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND1" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="VIN" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="3V3" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="D1_TXO" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="D0_RXI" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="A6_ONLY" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="A7_ONLY" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="A5_SCL" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="A4_SDA" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="A3" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="D11_MOSI" x="-15.24" y="-7.62" length="middle"/>
-<pin name="D12_MISO" x="-15.24" y="-10.16" length="middle"/>
-<pin name="D13_SCK" x="-15.24" y="-12.7" length="middle"/>
-<pin name="A2" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="A1" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="A0" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="GND" x="-2.54" y="35.56" length="middle" rot="R270"/>
-<pin name="NC" x="0" y="35.56" length="middle" rot="R270"/>
-<pin name="5V" x="2.54" y="35.56" length="middle" rot="R270"/>
-<pin name="RXI" x="5.08" y="35.56" length="middle" rot="R270"/>
-<pin name="TXO" x="7.62" y="35.56" length="middle" rot="R270"/>
-<pin name="DTR" x="10.16" y="35.56" length="middle" rot="R270"/>
-<pin name="AREF" x="2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="3V3_2" x="5.08" y="-30.48" length="middle" rot="R90"/>
-<pin name="GND2" x="7.62" y="-30.48" length="middle" rot="R90"/>
+<pin name="RST" x="-15.24" y="17.78" visible="pin" length="middle"/>
+<pin name="D2" x="-15.24" y="15.24" visible="pin" length="middle"/>
+<pin name="D3" x="-15.24" y="12.7" visible="pin" length="middle"/>
+<pin name="D4" x="-15.24" y="10.16" visible="pin" length="middle"/>
+<pin name="D5" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="D6" x="-15.24" y="5.08" visible="pin" length="middle"/>
+<pin name="D7" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="D8" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="D9" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="D10_SS" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="GND1" x="22.86" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="VIN" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="3V3" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D1_TXO" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D0_RXI" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A6_ONLY" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A7_ONLY" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="A5_SCL" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="A4_SDA" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A3" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D11_MOSI" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<pin name="D12_MISO" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="D13_SCK" x="-15.24" y="-12.7" visible="pin" length="middle"/>
+<pin name="A2" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A1" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-2.54" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="NC" x="0" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="5V" x="2.54" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="RXI" x="5.08" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="TXO" x="7.62" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="DTR" x="10.16" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="AREF" x="2.54" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="3V3_2" x="5.08" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="GND2" x="7.62" y="-30.48" visible="pin" length="middle" rot="R90"/>
 <wire x1="-10.16" y1="30.48" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-25.4" x2="17.78" y2="30.48" width="0.254" layer="94"/>
@@ -315,32 +315,32 @@
 <text x="2.54" y="0" size="2.54" layer="95" font="vector" rot="R90">MOTEINO</text>
 </symbol>
 <symbol name="MOTEINO_SIMPLE">
-<pin name="RST" x="-15.24" y="17.78" length="middle"/>
-<pin name="D2" x="-15.24" y="15.24" length="middle"/>
-<pin name="D3" x="-15.24" y="12.7" length="middle"/>
-<pin name="D4" x="-15.24" y="10.16" length="middle"/>
-<pin name="D5" x="-15.24" y="7.62" length="middle"/>
-<pin name="D6" x="-15.24" y="5.08" length="middle"/>
-<pin name="D7" x="-15.24" y="2.54" length="middle"/>
-<pin name="D8" x="-15.24" y="0" length="middle"/>
-<pin name="D9" x="-15.24" y="-2.54" length="middle"/>
-<pin name="D10_SS" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND1" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="VIN" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="3V3" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="D1_TXO" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="D0_RXI" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="A6_ONLY" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="A7_ONLY" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="A5_SCL" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="A4_SDA" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="A3" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="D11_MOSI" x="-15.24" y="-7.62" length="middle"/>
-<pin name="D12_MISO" x="-15.24" y="-10.16" length="middle"/>
-<pin name="D13_SCK" x="-15.24" y="-12.7" length="middle"/>
-<pin name="A2" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="A1" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="A0" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="RST" x="-15.24" y="17.78" visible="pin" length="middle"/>
+<pin name="D2" x="-15.24" y="15.24" visible="pin" length="middle"/>
+<pin name="D3" x="-15.24" y="12.7" visible="pin" length="middle"/>
+<pin name="D4" x="-15.24" y="10.16" visible="pin" length="middle"/>
+<pin name="D5" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="D6" x="-15.24" y="5.08" visible="pin" length="middle"/>
+<pin name="D7" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="D8" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="D9" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="D10_SS" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="GND1" x="22.86" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="VIN" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="3V3" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D1_TXO" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D0_RXI" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A6_ONLY" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A7_ONLY" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="A5_SCL" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="A4_SDA" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A3" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D11_MOSI" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<pin name="D12_MISO" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="D13_SCK" x="-15.24" y="-12.7" visible="pin" length="middle"/>
+<pin name="A2" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A1" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
 <wire x1="-10.16" y1="25.4" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-17.78" x2="17.78" y2="25.4" width="0.254" layer="94"/>
@@ -348,104 +348,104 @@
 <text x="2.54" y="0" size="2.54" layer="95" font="vector" rot="R90">MOTEINO</text>
 </symbol>
 <symbol name="MOTEINO_MEGA">
-<pin name="RST" x="-20.32" y="15.24" length="middle"/>
-<pin name="D2" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="D3" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="D4_SS" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="D5_MOSI" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="D6_MISO" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="D7_SCK" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="D10_RX1" x="-20.32" y="7.62" length="middle"/>
-<pin name="GND1" x="-20.32" y="22.86" length="middle"/>
-<pin name="VIN" x="-20.32" y="20.32" length="middle"/>
-<pin name="3V3" x="-20.32" y="17.78" length="middle"/>
-<pin name="D8_RX0" x="-20.32" y="12.7" length="middle"/>
-<pin name="D9_TX0" x="-20.32" y="10.16" length="middle"/>
-<pin name="A7" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="A3" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="D11_TX1" x="-20.32" y="5.08" length="middle"/>
-<pin name="D12" x="-20.32" y="2.54" length="middle"/>
-<pin name="D13" x="-20.32" y="0" length="middle"/>
-<pin name="A2" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="A1" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="A0" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND" x="-5.08" y="35.56" length="middle" rot="R270"/>
-<pin name="NC" x="-2.54" y="35.56" length="middle" rot="R270"/>
-<pin name="5V" x="0" y="35.56" length="middle" rot="R270"/>
-<pin name="RXI" x="2.54" y="35.56" length="middle" rot="R270"/>
-<pin name="TXO" x="5.08" y="35.56" length="middle" rot="R270"/>
-<pin name="DTR" x="7.62" y="35.56" length="middle" rot="R270"/>
-<pin name="AREF" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="3V3_2" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="GND2" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="RST" x="-20.32" y="15.24" visible="pin" length="middle"/>
+<pin name="D2" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D3" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D4_SS" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D5_MOSI" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D6_MISO" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D7_SCK" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="D10_RX1" x="-20.32" y="7.62" visible="pin" length="middle"/>
+<pin name="GND1" x="-20.32" y="22.86" visible="pin" length="middle"/>
+<pin name="VIN" x="-20.32" y="20.32" visible="pin" length="middle"/>
+<pin name="3V3" x="-20.32" y="17.78" visible="pin" length="middle"/>
+<pin name="D8_RX0" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="D9_TX0" x="-20.32" y="10.16" visible="pin" length="middle"/>
+<pin name="A7" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="A3" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D11_TX1" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="D12" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="D13" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="A2" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="A1" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-5.08" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="NC" x="-2.54" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="5V" x="0" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="RXI" x="2.54" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="TXO" x="5.08" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="DTR" x="7.62" y="35.56" visible="pin" length="middle" rot="R270"/>
+<pin name="AREF" x="22.86" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="3V3_2" x="22.86" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="GND2" x="22.86" y="22.86" visible="pin" length="middle" rot="R180"/>
 <wire x1="-15.24" y1="30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-30.48" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
 <wire x1="17.78" y1="30.48" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
 <text x="0" y="10.16" size="2.54" layer="95" font="vector" rot="R270">MOTEINO MEGA</text>
-<pin name="D14" x="-20.32" y="-2.54" length="middle"/>
-<pin name="D15" x="-20.32" y="-5.08" length="middle"/>
-<pin name="D16_SCL" x="-20.32" y="-7.62" length="middle"/>
-<pin name="D17_SDA" x="-20.32" y="-10.16" length="middle"/>
-<pin name="VIN_2" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="D18" x="-20.32" y="-12.7" length="middle"/>
-<pin name="D19" x="-20.32" y="-15.24" length="middle"/>
-<pin name="D20" x="-20.32" y="-17.78" length="middle"/>
-<pin name="D21" x="-20.32" y="-20.32" length="middle"/>
-<pin name="D22" x="-20.32" y="-22.86" length="middle"/>
-<pin name="D23" x="-20.32" y="-25.4" length="middle"/>
-<pin name="A4" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="A5" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="A6" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="D1" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="D0" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="D14" x="-20.32" y="-2.54" visible="pin" length="middle"/>
+<pin name="D15" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="D16_SCL" x="-20.32" y="-7.62" visible="pin" length="middle"/>
+<pin name="D17_SDA" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="VIN_2" x="22.86" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D18" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="D19" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="D20" x="-20.32" y="-17.78" visible="pin" length="middle"/>
+<pin name="D21" x="-20.32" y="-20.32" visible="pin" length="middle"/>
+<pin name="D22" x="-20.32" y="-22.86" visible="pin" length="middle"/>
+<pin name="D23" x="-20.32" y="-25.4" visible="pin" length="middle"/>
+<pin name="A4" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="A5" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="A6" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D1" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="D0" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
 </symbol>
 <symbol name="MOTEINO_MEGA_SIMPLE">
-<pin name="RST" x="-20.32" y="15.24" length="middle"/>
-<pin name="D2" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="D3" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="D4_SS" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="D5_MOSI" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="D6_MISO" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="D7_SCK" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="D10_RX1" x="-20.32" y="7.62" length="middle"/>
-<pin name="GND1" x="-20.32" y="22.86" length="middle"/>
-<pin name="VIN" x="-20.32" y="20.32" length="middle"/>
-<pin name="3V3" x="-20.32" y="17.78" length="middle"/>
-<pin name="D8_RX0" x="-20.32" y="12.7" length="middle"/>
-<pin name="D9_TX0" x="-20.32" y="10.16" length="middle"/>
-<pin name="A7" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="A3" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="D11_TX1" x="-20.32" y="5.08" length="middle"/>
-<pin name="D12" x="-20.32" y="2.54" length="middle"/>
-<pin name="D13" x="-20.32" y="0" length="middle"/>
-<pin name="A2" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="A1" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="A0" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="AREF" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="3V3_2" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="GND2" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="RST" x="-20.32" y="15.24" visible="pin" length="middle"/>
+<pin name="D2" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D3" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D4_SS" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D5_MOSI" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D6_MISO" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D7_SCK" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="D10_RX1" x="-20.32" y="7.62" visible="pin" length="middle"/>
+<pin name="GND1" x="-20.32" y="22.86" visible="pin" length="middle"/>
+<pin name="VIN" x="-20.32" y="20.32" visible="pin" length="middle"/>
+<pin name="3V3" x="-20.32" y="17.78" visible="pin" length="middle"/>
+<pin name="D8_RX0" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="D9_TX0" x="-20.32" y="10.16" visible="pin" length="middle"/>
+<pin name="A7" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="A3" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D11_TX1" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="D12" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="D13" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="A2" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="A1" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="AREF" x="22.86" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="3V3_2" x="22.86" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="GND2" x="22.86" y="22.86" visible="pin" length="middle" rot="R180"/>
 <wire x1="-15.24" y1="30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-30.48" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
 <wire x1="17.78" y1="30.48" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
 <text x="0" y="10.16" size="2.54" layer="95" font="vector" rot="R270">MOTEINO MEGA</text>
-<pin name="D14" x="-20.32" y="-2.54" length="middle"/>
-<pin name="D15" x="-20.32" y="-5.08" length="middle"/>
-<pin name="D16_SCL" x="-20.32" y="-7.62" length="middle"/>
-<pin name="D17_SDA" x="-20.32" y="-10.16" length="middle"/>
-<pin name="VIN_2" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="D18" x="-20.32" y="-12.7" length="middle"/>
-<pin name="D19" x="-20.32" y="-15.24" length="middle"/>
-<pin name="D20" x="-20.32" y="-17.78" length="middle"/>
-<pin name="D21" x="-20.32" y="-20.32" length="middle"/>
-<pin name="D22" x="-20.32" y="-22.86" length="middle"/>
-<pin name="D23" x="-20.32" y="-25.4" length="middle"/>
-<pin name="A4" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="A5" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="A6" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="D1" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="D0" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="D14" x="-20.32" y="-2.54" visible="pin" length="middle"/>
+<pin name="D15" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="D16_SCL" x="-20.32" y="-7.62" visible="pin" length="middle"/>
+<pin name="D17_SDA" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="VIN_2" x="22.86" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D18" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="D19" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="D20" x="-20.32" y="-17.78" visible="pin" length="middle"/>
+<pin name="D21" x="-20.32" y="-20.32" visible="pin" length="middle"/>
+<pin name="D22" x="-20.32" y="-22.86" visible="pin" length="middle"/>
+<pin name="D23" x="-20.32" y="-25.4" visible="pin" length="middle"/>
+<pin name="A4" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="A5" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="A6" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D1" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="D0" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -545,7 +545,7 @@
 <gate name="G$1" symbol="MOTEINO_SIMPLE" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="R1-R6" package="MOTEINO_SIMPLE">
+<device name="" package="MOTEINO_SIMPLE">
 <connects>
 <connect gate="G$1" pin="3V3" pad="3V3"/>
 <connect gate="G$1" pin="A0" pad="A0"/>
