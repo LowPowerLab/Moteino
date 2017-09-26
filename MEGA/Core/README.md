@@ -1,6 +1,6 @@
 # Moteino/MoteinoMEGA Arduino core files for Atmega328P/ATmega1284P based Moteinos
 
-#* ~~~ Obsolete ~~~ *
+# * ~~~ Obsolete ~~~ *
 See new instructions to get Moteino Core in the [Moteino guide](https://lowpowerlab.com/guide/moteino/programming-libraries/).
 
 ## What is it?
